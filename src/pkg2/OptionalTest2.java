@@ -1,6 +1,4 @@
 package pkg2;
-
-import javax.swing.text.html.Option;
 import java.util.Optional;
 
 public class OptionalTest2 {
@@ -14,6 +12,7 @@ public class OptionalTest2 {
     public static void main(String[] args) {
         Optional<String> inThisNull = getSomeString2();
 
+        // ifPresent() : 값이 존재할 수도 있고 존재하지 않을 수도 있는 값을 감사는 래퍼 클래스. Optional 객체에 값이 존재할 때만 지정된 동작을 수행한다. 존재하지 않을 경우 아무 동작도 수행하지 않는다.
         inThisNull.ifPresent(str -> System.out.println("str.toUpperCase() = " + str.toUpperCase()));
     }
 }
