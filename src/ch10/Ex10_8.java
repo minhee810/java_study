@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class Ex10_8 {
     public static void main(String[] args) {
-        Date today = new Date();
+        Date today = new Date(); // 현재의 시간과 날짜
 
         SimpleDateFormat sdf1, sdf2, sdf3, sdf4;
         SimpleDateFormat sdf5, sdf6, sdf7, sdf8, sdf9;
